@@ -1,0 +1,531 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: #147a9b;
+}
+p {
+    font-size: 18px;
+}
+nav.navbar {
+    border-top: 10px solid #147a9b;
+    background-color: #104288;
+    padding: 5px 0;
+}
+.panel>.panel-heading {
+    background-color: #104288;
+    border-color: #104288;
+    color: #fff;
+}
+.navbar-default {
+    border: none;
+}
+#teacher-links .img-responsive, #student-links .img-responsive {
+    margin: 0 auto;
+}
+#logo {
+    font-weight: 900;
+    color: #ffffff;
+    font-style: normal;
+    letter-spacing: 0.075em;
+}
+#logo img {
+    position: relative;
+    top: -12px;
+}
+ul#navbar>li>a {
+    color: #e0e0e0;
+    font-weight: 500;
+    font-style: normal;
+}
+#intro-slide {
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://www.dfwworld.org/image/Cover-Image2.jpg);
+}
+.intro-section {
+    background-color: transparent;
+    padding: 0;
+}
+#intro-slide:after {
+    content: " ";
+    background: rgba(16, 66, 136, 0);
+    background: -moz-linear-gradient(top, rgba(16, 66, 136, 0) 0%, rgba(16, 66, 136, 0.33) 21%, rgba(16, 66, 136, 0.75) 48%, rgba(16, 66, 136, 1) 64%, rgba(16, 66, 136, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(16, 66, 136, 0)), color-stop(21%, rgba(16, 66, 136, 0.33)), color-stop(48%, rgba(16, 66, 136, 0.75)), color-stop(64%, rgba(16, 66, 136, 1)), color-stop(100%, rgba(16, 66, 136, 1)));
+    background: -webkit-linear-gradient(top, rgba(16, 66, 136, 0) 0%, rgba(16, 66, 136, 0.33) 21%, rgba(16, 66, 136, 0.75) 48%, rgba(16, 66, 136, 1) 64%, rgba(16, 66, 136, 1) 100%);
+    background: -o-linear-gradient(top, rgba(16, 66, 136, 0) 0%, rgba(16, 66, 136, 0.33) 21%, rgba(16, 66, 136, 0.75) 48%, rgba(16, 66, 136, 1) 64%, rgba(16, 66, 136, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(16, 66, 136, 0) 0%, rgba(16, 66, 136, 0.33) 21%, rgba(16, 66, 136, 0.75) 48%, rgba(16, 66, 136, 1) 64%, rgba(16, 66, 136, 1) 100%);
+    background: linear-gradient(to bottom, rgba(16, 66, 136, 0) 0%, rgba(16, 66, 136, 0.33) 21%, rgba(16, 66, 136, 0.75) 48%, rgba(16, 66, 136, 1) 64%, rgba(16, 66, 136, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#104288', endColorstr='#104288', GradientType=0);
+}
+#logo-container {
+    position: relative;
+    top: 18vh;
+    left: 53vh;
+    display: inline-block;
+}
+#main-logo img {
+    width: 300px;
+}
+#pre-text {
+    padding-bottom: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #3f3f3f;
+    letter-spacing: .0125em;
+}
+#pre-text p:first-child {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    color: #a00008;
+    margin-bottom: 0;
+}
+#pre-text p {
+    width: 75%;
+    margin: 0 auto;
+}
+#pre-text p {
+    margin-bottom: 1.5em;
+}
+section:nth-child(odd) {
+    position: relative;
+    -webkit-box-shadow: 0px 0px 37px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 37px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 37px -9px;
+}
+section:nth-child(even) {
+    background-color: #F8F1E9;
+}
+#divergent-paths {
+    padding: 50px 0;
+    background-size: cover;
+}
+h1 {
+    margin: 1em 0 0;
+}
+
+h2{
+  font-size: 21px;
+}
+
+a.btn {
+    display: inline-block;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    width: auto;
+    overflow: auto;
+    background-color: #00a7e1;
+    border-style: none;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-style: normal!important;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+a {
+    color: #a00008;
+    font-weight: 700;
+    font-style: italic;
+}
+a.btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #00a7e1;
+    -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+    -moz-box-shadow: inset 0px 0px 0px 3px #fff;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+a.btn::after {
+    content: "\00a0\00a0❯";
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+.navbar-default .navbar-nav>.active>a {
+    color: #104288!important;
+}
+.links {
+    margin-top: 50px;
+}
+
+/*
+#teacher{
+  width: 300px;
+  height: 300px;
+  border-radius: 5000px;
+  background-image: url(https://www.dfwworld.org/image/ICON_Teacher.png);
+  margin: 0 auto;
+  background-size:contain;
+}
+*/
+img.icon{
+  margin: 0 auto;
+}
+img.icon:hover {
+    opacity: 0.5;
+}
+
+/*
+#student{
+  width: 300px;
+  height: 300px;
+  border-radius: 5000px;
+  background-image: url(https://www.dfwworld.org/image/ICON_Student.png);
+  margin: 0 auto;
+  background-size:contain;
+}
+
+#teacher a:after{
+  content: "\f040";
+  width: 400px;
+  color: white;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 14em;
+  text-shadow: 2px 1px 6px rgba(0, 0, 0, 0.42);
+}
+
+#student a:after{
+  content: "\f2ae";
+  width: 400px;
+  color: white;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 14em;
+
+}
+*/
+
+#student a:hover {
+    text-decoration: none;
+}
+#teacher-student>img {
+    position: relative;
+}
+.copy {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+.copy>h2 {
+    font-variant: small-caps;
+    text-align: center;
+    color: #3f3f3f;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+span.author {
+    font-style: italic;
+    text-align: center;
+    display: block;
+}
+#teachers {
+    padding: 50px 0;
+}
+h1 {
+    font-variant: small-caps;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+hr{
+  width: 75px;
+  border-top: 20px solid #a00008;
+  padding-bottom: 1em;
+}
+
+#teacher img, #student img{
+  margin: 0 auto;
+}
+
+#teachers p {
+    color: #ffffff;
+}
+#teacher-links a, #teacher-links h3 {
+    color: #ffffff;
+}
+#student-links a, #student-links h3 {
+    color: #3f3f3f;
+}
+#students p~p {
+    font-weight: 700;
+}
+#teachers p, #students p, #students ul {
+    font-size: 18px;
+    padding-bottom: 1em;
+}
+#students ul {
+    width: 75%;
+    margin: 0 auto;
+}
+#students ul+p {
+    font-weight: normal;
+}
+#students h1, #membership h1 {
+    color: #3f3f3f;
+}
+
+/* EDUCATION MATRIX */
+
+.membership #membership-container {
+    overflow: auto;
+    margin-bottom: 50px;
+    height: auto;
+}
+.membership-hidden {
+    display: none;
+}
+.membership #membership-container .membership-nav {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding-top: 5px;
+    margin: 5px auto 15px;
+    text-align: center;
+}
+
+.membership #membership-container .membership-nav span{
+  font-size: 21px;
+}
+
+.membership>#membership-container>.membership-nav>a {
+    margin: 0 !important;
+    list-style-type: none !important;
+    padding: 5px 15px;
+    text-align: center;
+    display: inline;
+    width: 15%;
+    font-style: normal;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.membership>#membership-container>.membership-nav>a:hover{
+  color: #a00008;
+  background-color: #282828;
+  text-decoration: none;
+}
+.membership>#membership-container>.membership-nav>a:last-child {
+    border-right: none;
+}
+.membership>#membership-container>#perks-container {
+    max-width: 75%;
+    margin: 25px auto 0;
+    position: relative;
+    border: 1px black solid;
+    padding: 10px 10px 0 10px;
+}
+.membership>#membership-container>#perks-container>.perks>ul {
+    padding: 0 25px;
+}
+.membership>#membership-container>#perks-container>.perks>ul>li {
+    list-style-type: none;
+    padding: 5px 9px;
+}
+.membership>#membership-container>#perks-container>.perks>ul>li:nth-child(even) {
+    background-color: rgba(97, 130, 211, 0.25);
+}
+.membership>#membership-container>#perks-container>.perks>ul>li:last-child {
+    margin-bottom: 0;
+}
+
+/* TEACHER LINKS */
+
+#teacher-links {
+    margin-bottom: 50px;
+}
+
+/* STUDENT CONTAINER */
+
+#students {
+    padding: 50px 0;
+    min-height: 100vh;
+}
+.carousel {
+    background-color: green;
+    margin: 0 auto;
+    width: 600px;
+}
+section#calendar {
+    min-height: auto;
+    width: 100%;
+    padding-bottom: 2em;
+}
+section#membership {
+    overflow: visible;
+}/*
+#membership-matrix {
+    padding-bottom: 2%;
+}*/
+span#membership-catch {
+    position: relative;
+    top: -75px;
+}
+
+#membership-footer{
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 5%;
+}
+
+div.panel-heading a{
+  color: white;
+  font-weight: 900;
+  font-style: normal;
+  text-decoration: none;
+}
+
+footer {
+    color: #ffffff;
+    background-color: #104288;
+    padding: 1em 0;
+    height: 15%;
+    clear: both;
+}
+
+footer a{
+    color: #ffffff;
+}
+
+footer a:hover{
+  color: #a00008;
+}
+
+footer h2 {
+  font-size: 17px;
+}
+
+footer .text-right{
+
+    vertical-align: bottom;
+}
+
+/* SPONSOR INFORMATION */
+section#sponsorship{
+	width: auto;
+	margin: 0 auto;
+}
+div.sponsor{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	margin: 0 auto;
+	padding: 1em 0.5em;
+	vertical-align: middle;
+}
+
+#main-content p{
+  color: #ffffff;
+}
+
+div.sponsor:first-child{
+	padding-left: 0;
+}
+
+div.sponsor:last-child{
+	padding-right: 0;
+}
+
+div#last{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#sponsorship{
+  background-color: #ffffff;
+  width: 75%;
+  margin: 1em auto;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.56);
+box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.56);
+}
+
+.sponsor>img{
+	width: 150px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:780px) {
+    #logo-container {
+        top: 18vh;
+        left: 18vh;
+    }
+}
+@media screen and (min-width: 781px) and (max-width: 1350px) {
+    /* Styles */
+    #logo-container {
+        top: 18vh;
+        left: 24vh;
+        position: relative;
+    }
+}
+@media screen and (max-width:680px) {
+    #logo-container {
+        top: 65vh;
+        left: 0;
+        position: relative;
+    }
+    p {
+        width: auto!important;
+    }
+    div#pre-text p, .copy {
+        width: auto;
+    }
+    ul, ol {
+        width: 90%!important;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 0.5em;
+        font-size: 18px;
+        display: list-item;
+    }
+    #teacher-student div {
+        margin-bottom: 1em;
+    }
+    div.links div {
+        height: 200px;
+    }
+    #calendar {
+        min-height: auto!important;
+        padding-bottom: 1em;
+    }
+    h1 {
+        text-align: center!important;
+    }
+    a.btn {
+        padding: 3% 7%;
+        text-align: center;
+    }
+
+    div.sponsor{
+      display: block;
+      width: auto;
+    }
+}

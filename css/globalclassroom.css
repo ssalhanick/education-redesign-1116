@@ -1,0 +1,116 @@
+.contain {
+    height: auto;
+    background-color: #f8f1e9;
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+#globalClassroom {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: none;
+    padding-top: 1%;
+}
+#main-content h1 {
+    font-size: 42px;
+    color: #3f3f3f;
+    margin:2em 0 0.5em 0;
+}
+#main-content p {
+    font-size: 21px;
+    color: #333333;
+}
+#main-content ol {
+    font-size: 18px;
+    line-height: 1.25;
+    margin-left: 1em;
+}
+#main-content li {
+    padding-bottom: 1%;
+}
+.contact {
+    padding-bottom: 1em;
+}
+#main-content .upcoming {
+    width: 50%;
+    margin: 1em auto;
+    padding: 5px 7px;
+    border: 3px solid #147a9b;
+    text-align: center;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #104288;
+
+
+    color: #ffffff;
+
+}
+#main-content .upcoming h2, .past h2 {
+    font-weight: 700;
+
+}
+}
+#main-content .upcoming h2  {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+#main-content .upcoming p {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#pastEvents{
+
+		width: 90%;
+		margin: 0 auto;
+}
+
+#pastEvents .panel{
+	margin-bottom: 10px;
+}
+
+#pastEvents .panel:last-child{
+	margin-bottom: 25px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 1338px){
+  #main-content .upcoming {
+      width: 90%;
+  }
+}
+@media screen and (max-width:480px) {
+    #globalClassroom {
+        width: auto;
+        margin: 0;
+    }
+    #globalClassroom h1 {
+        padding-top: 1em;
+    }
+    #globalClassroom h1, h2 {
+        text-align: center
+    }
+    #main-content .upcoming {
+        width: 90%;
+    }
+    .past ul {
+        width: 100%;
+    }
+    .past ul li {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 0.5em 0.5em 0;
+    }
+
+		 .past li:last-child{
+			 padding: 0;
+			 margin: 0;
+			 text-align: center;
+		 }
+
+		.hash{
+			visibility: hidden;
+		}
+}

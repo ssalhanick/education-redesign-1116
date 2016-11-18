@@ -1,0 +1,75 @@
+.contain {
+    height: auto;
+    background-color: #f8f1e9;
+}
+section {
+    box-shadow: none!important;
+}
+.intro {}
+.opportunitiesContain {
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+h2 {
+    margin-top: 2em;
+}
+#outside-opportunities>#header{
+    padding-top: 8em;
+}
+#outside-opportunities>#header>img{
+  display: block;
+  margin: 0 auto;
+      width: 100%;
+}
+
+#outside-opportunities>#header {
+    margin-bottom: 1em;
+}
+div.event-container {
+    width: 95%;
+    height: auto;
+    overflow: auto;
+    margin: 0 auto 1em;
+    padding: 0.5em;
+    border: 1px solid black;
+}
+div.panel-footer>button {
+    display: inline-block;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    width: auto;
+    overflow: auto;
+    background-color: #00a7e1;
+    margin-bottom: 0.5em;
+}
+div.panel-footer>button a {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 17px;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-style: normal!important;
+    display: block;
+}
+div.panel-footer>button a::after {
+    content: "\00a0\00a0❯";
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:480px){
+  .opportunitiesContain{
+    width: 95%;
+    padding: 0 1em;
+  }
+
+  #outside-opportunities>#header{
+    padding-top: 5em;
+    width: 100%;
+  }
+}

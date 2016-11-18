@@ -1,0 +1,142 @@
+body{
+	background-color: #f8f1e9;
+}
+
+.contain{
+	margin-top: -1em;
+	height: auto;
+	background-color: #f8f1e9;
+}
+
+#JWAC{
+	box-shadow: none!important;
+	margin-top: 8em;
+	background-color: #f8f1e9;
+}
+
+h1{
+	margin-bottom: 1em;
+	color: #3f3f3f;
+}
+
+h3{
+	font-size: 21px;
+	font-weight: 900;
+	text-align: right;
+}
+
+section{
+	box-shadow: none!important;
+}
+
+.JWACcontain{
+	width: 65%;
+	margin: 0 auto;
+}
+
+#what .parent{
+	padding-bottom: 3em;
+}
+
+#what .parent:last-child{
+	padding-bottom: 0;
+}
+
+#JWAC li, #JWAC p{
+	padding-left: 1em;
+		padding-bottom: 1em;
+		font-size: 16px;
+}
+
+#annualProject img{
+	margin: 0 auto;
+	padding-bottom: 1em;
+	width: 200px;
+}
+
+div#topics ul{
+	margin: 0;
+	padding: 0;
+}
+
+div#topics li{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+div#topics li:last-child{
+	padding-bottom: 1em;
+}
+
+#alert{
+	color: #ff3333;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	font-size: 24px;
+}
+
+#WQCarousel{
+	margin: 0;
+	margin-bottom: 2em;
+}
+
+div.banner{
+	background-size: cover;
+	max-width: 600px;
+	min-width: 250px;
+	height: 300px;
+	margin: 0 auto;
+	margin-bottom: 1em;
+}
+
+div#certificateBanner{
+	background-image: url(https://www.dfwworld.org/image/EM_JWAC-Grads.jpg);
+}
+
+div#gatewayGrantBanner{
+	background-image: url(https://www.dfwworld.org/image/EM_IVP-Award.jpg);
+}
+
+#certificate img{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#JWAC li{
+}
+
+section#how{
+	background-color: #147a9b;
+	padding: 1em 0;
+	-webkit-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75)!important;
+	-moz-box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75)!important;
+	box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75)!important;
+}
+
+#how h1{
+	color: #ffffff;
+}
+
+#how a{
+	color: #ffffff;
+}
+
+#how a:hover{
+	color: #a00008;
+}
+.how{
+color: #ffffff;
+}
+
+/* MEDIA QUERIES*/
+@media screen and (max-width:480px){
+  #JWAC{
+    margin: 0;
+  }
+
+	.JWACcontain{
+		width: 95%;
+	}
+}

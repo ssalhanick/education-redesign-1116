@@ -1,0 +1,82 @@
+.contain{
+	height: auto;
+	background-color: #f8f1e9;
+}
+
+section{
+	box-shadow: none!important;
+	padding-top: 6em;
+}
+
+h1{
+	padding-top: 1em;
+}
+
+div.WQcontain{
+	width: 65%;
+	margin: 0 auto;
+	padding-bottom: 2em;
+}
+#WQ p{
+	font-size: 18px;
+}
+
+#WQCarousel{
+	margin-bottom: 2em;
+}
+
+h1 img{
+	margin: 0 auto;
+}
+
+#alert{
+	color: #ff3333;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	font-size: 24px;
+}
+
+.pastWinners{
+	margin-bottom: 1em;
+}
+
+.pastWinners ul{
+		width: 60%;
+		margin: 0 auto;
+}
+
+.pastWinners li{
+	display: inline-block;
+	margin-right: 2em;
+	font-size: 18px;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width:480px){
+  #WQ{
+    padding: 0;
+  }
+
+	div.WQcontain {
+		margin: 0 1em;
+		width: 95%;
+	}
+
+	.WQcontain p{
+		width: auto;
+		padding-bottom: 1em;
+	}
+
+	.pastWinners ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	.pastWinners li{
+		margin: 0.5em 0;
+		padding: 0;
+		display: block;
+	}
+}
