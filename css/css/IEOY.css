@@ -1,0 +1,95 @@
+.contain{
+	height: auto;
+	background-color: #f8f1e9;
+
+}
+#IEOY{
+	margin: 0 auto;
+	box-shadow: none;
+	padding-top: 1%;
+}
+
+#IEOY .upcomingEvents .col1{
+	display: inline-block;
+	float: left;
+	width: 30%;
+}
+
+#IEOY .upcomingEvents .col1 img{
+	width: 100%;
+}
+
+#IEOY .upcomingEvents .col2{
+	display: inline-block;
+	float: right;
+	width: 70%;
+	padding-left: 2%;
+}
+
+#awardinfo h2{
+	font-weight: bold;
+	padding-left: 1em;
+	font-size: 24px;
+}
+
+#IEOY .pastWinners .col1{
+	display: inline-block;
+	float: left;
+	width: 30%;
+}
+
+#IEOY .pastWinners .col1 img{
+	width: 100%;
+}
+
+#IEOY .pastWinners .col2{
+	display: inline-block;
+	float: right;
+	width: 70%;
+	padding-left: 2%;
+}
+
+.questions{
+	font-weight: bold;
+	padding: 1em 1em 1em 0;
+	border-bottom: 2px solid #a00008;
+}
+
+
+h1{
+	font-size: 42px;
+	color: #3f3f3f;
+	margin:2em 0 0.5em;
+}
+
+span.date{
+	display: block;
+	font-weight: 700;
+	padding-bottom: 0.25em;
+
+}
+
+
+#pastWinners{
+
+		width: 90%;
+		margin: 0 auto;
+}
+
+#pastWinners .panel{
+	margin-bottom: 10px;
+}
+
+#pastWinners .panel:last-child{
+	margin-bottom: 25px;
+}
+
+div.panel-heading h4.panel-title, div.panel-heading h3.panel-title{
+	font-weight: bold;
+	letter-spacing: 1.25;
+}
+
+div.panel-heading h4.panel-title span, div.panel-heading h3.panel-title span{
+	color: #f8f1e9;
+	font-weight: bold;
+}
