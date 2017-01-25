@@ -98,3 +98,16 @@ div.panel-heading h4.panel-title span, div.panel-heading h3.panel-title span{
 	color: #f8f1e9;
 	font-weight: bold;
 }
+
+
+section#IEOY #sponsor{
+	width: 75%;
+	margin: 3em auto;
+	padding: 0.5em 1em;
+	border: 3px solid #a00008;
+}
+
+section#IEOY #sponsor p{
+	margin: 0;
+	padding: 0;
+}
