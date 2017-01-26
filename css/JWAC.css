@@ -130,6 +130,37 @@ section#how{
 color: #ffffff;
 }
 
+section#JWACparticipants{
+	background-color: #147a9b;
+	padding: 2em 0;
+}
+section#JWACparticipants h1{
+	color: #ffffff;
+}
+
+#jwac-schools{
+	display: none;
+}
+
+#jwac-schools h3{
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: 0.5px;
+}
+
+#drop-downbutton{
+	display: block;
+}
+
+#drop-downbutton i{
+	font-size: 48px;
+	color: #ffffff;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
 /* MEDIA QUERIES*/
 @media screen and (max-width:480px){
   #JWAC{
