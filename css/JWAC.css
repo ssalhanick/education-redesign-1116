@@ -107,6 +107,17 @@ div#gatewayGrantBanner{
 #JWAC li{
 }
 
+#worldQuest .sponsor{
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 2em;
+}
+
+#worldQuest .sponsor h4, #topics h4{
+	font-weight: 800;
+}
+
 section#how{
 	background-color: #147a9b;
 	padding: 1em 0;
