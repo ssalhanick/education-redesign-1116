@@ -162,6 +162,7 @@ section#JWACparticipants h1{
 
 #drop-downbutton{
 	display: block;
+	height: 48px;
 }
 
 #drop-downbutton i{
@@ -171,6 +172,12 @@ section#JWACparticipants h1{
 	display: block;
 	margin: 0 auto;
 }
+
+.rotate {
+  height: 48px;
+  text-align: center;
+}
+
 
 /* MEDIA QUERIES*/
 @media screen and (max-width:480px){

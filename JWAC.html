@@ -345,9 +345,9 @@
                         <h3><span class="school">Woodrow Wilson High School</span> <span>|</span> <span class="district">Dallas ISD</span></h3>
                         <h3><span class="school">Yavneh Academy of Dallas</span> <span>|</span> <span class="district">Private</span></h3>
                     </div>
-<!--                <div id="drop-downbutton">
+                <div id="drop-downbutton"  class="rotate">
                   <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
-                </div>-->
+                </div>
                 </div>
             </section>
         </section>
@@ -386,13 +386,25 @@
         // ]]>
     </script>-->
 
-  <!--PARTICIPATING JWAC SCRIPTS
+  <!--PARTICIPATING JWAC SCRIPTS-->
   <script type="text/javascript">
+  $(document).ready(function(){
+    $('#jwac-schools').hide();
+  });
+  var rotation = 0;
 
-    $("#drop-downbutton").click(function (){
-      $("#jwac-schools").slideToggle("slow");
-    });
-  </script>-->
+jQuery.fn.rotate = function(degrees) {
+$(this).css({
+  'transform': 'rotate(' + degrees + 'deg)'
+});
+};
+
+$('.rotate').click(function() {
+$('#jwac-schools').slideToggle("fast" , "swing");
+rotation += 180;
+$(this).rotate(rotation);
+});
+  </script>
 
 </body>
 
