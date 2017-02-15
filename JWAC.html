@@ -221,7 +221,10 @@
                         <div class="text-center">
                             <a id="guidelines" href="http://www.dfwworld.org/file/education/WQ-Guidelines-2017.pdf" class="btn btn-primary">Guidelines</a>&nbsp;
                             <a class="btn btn-primary" href="http://www.dfwworld.org/file/education/AWQ2017StudyGuide.pdf">2017 Study Guide</a>
-                            <a class="btn btn-primary" id="registration" href="https://www.dfwworld.org/iep/wq">Register Now</a>
+                            <div class="btn btn-primary" id="registration" href="#">Register Now</div>
+                            <div id="closed">
+                              <h3 style="text-align: center; padding: 1em 0; color: red;">Acadmeic WorldQuest registration is closed</h3>
+                            </div>
                         </div>
                         <span class="text-center" id="alert"></span>
                     </div>
@@ -388,8 +391,13 @@
 
   <!--PARTICIPATING JWAC SCRIPTS-->
   <script type="text/javascript">
+
   $(document).ready(function(){
     $('#jwac-schools').hide();
+    $('#closed').hide();
+    $('#registration').click(function(){
+      $('#closed').toggle();
+    });
   });
   var rotation = 0;
 

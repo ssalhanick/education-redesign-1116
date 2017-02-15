@@ -107,6 +107,43 @@ div#gatewayGrantBanner{
 #JWAC li{
 }
 
+div.btn {
+    display: inline-block;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    width: auto;
+    overflow: auto;
+    background-color: #00a7e1;
+    border-style: none;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-style: normal!important;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+div.btn:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #00a7e1;
+    -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
+    -moz-box-shadow: inset 0px 0px 0px 3px #fff;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+div.btn::after {
+    content: "\00a0\00a0❯";
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
 #worldQuest .sponsor{
 	width: 100%;
 	margin: 0 auto;
