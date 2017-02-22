@@ -232,4 +232,8 @@ section#JWACparticipants h1{
 	.JWACcontain{
 		width: 95%;
 	}
+
+	#worldQuest .alert{
+		width: 95%;
+	}
 }
